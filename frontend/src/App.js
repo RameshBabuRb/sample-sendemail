@@ -8,7 +8,7 @@ function App() {
       <input />
       <button onClick={async () => {
         try {
-          await axios.post('http://localhost:8080/sendmail', { email: "rameshbabu20499@gmail.com" })
+          await axios.post('https://ramesh-projects-backend.vercel.app/sendmail', { email: "rameshbabu20499@gmail.com" })
         } catch (error) {
           console.log(error)
         }
